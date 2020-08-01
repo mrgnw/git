@@ -1,19 +1,18 @@
-#### A default git config that's easy to customize
+#### Easy to download git config
 
- is the official [git-scm](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) config for the current user. 
+```sh
+git clone https://github.com/mrgnw/git ~/.config
+```
 
 This repo uses that existing structure to add easy-to-reference files around that. (Basically [ignore](ignore) & [alias](alias))
 
-### Install
+#### use git-extras too
 
 ```sh
-git clone https://github.com/mrgnw/gitconfig ~/.config/git
+brew install git-extras
 ```
 
-##### Useful commands
+### user
 
-`file:.git/config`: That's the local repo's config! ([docs](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup))
+Optional `user` file for adding name/email without checking in.
 
-### See also
-
-Pulled a lot from [GitAlias/gitalias](https://github.com/GitAlias/gitalias).

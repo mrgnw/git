@@ -1,6 +1,8 @@
 [alias]
     cfg = config --global --edit
-    dft = diff 
+    email = config --global user.email
+    name = config --global user.name
+    df = difftool
     # aliases = open this
 
     a = add
@@ -31,4 +33,4 @@
     w = whatchanged
 
     # config
-    configs = config --list --show-origin
+    configs = config --list
