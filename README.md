@@ -1,4 +1,4 @@
-#### Easy to download git config
+#### Git config
 
 ```sh
 git clone https://github.com/mrgnw/git ~/.config
