@@ -1,12 +1,10 @@
-[core]
-	excludesfile = ignore
+[core] excludesfile = ignore
 [include]
 	path = alias
 	path = user
-[diff]
-	tool = meld
-[difftool]
-    prompt = false
+[diff] tool = meld
+[difftool] prompt = false
+
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f

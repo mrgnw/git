@@ -14,6 +14,6 @@ git clone https://github.com/mrgnw/gitconfig ~/.config/git
 
 `file:.git/config`: That's the local repo's config! ([docs](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup))
 
-### See alos
+### See also
 
-Pulled a lot from [GitAlias/gitalias](GitAlias/gitalias).
+Pulled a lot from [GitAlias/gitalias](https://github.com/GitAlias/gitalias).
