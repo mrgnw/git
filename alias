@@ -1,0 +1,22 @@
+[alias]
+    cfg = config --global --edit
+    dft = diff 
+    # aliases = open this
+
+    a = add
+    b = branch
+    # b = git checkout -b
+    c = commit
+    d = diff
+    f = fetch
+    g = grep
+    l = log
+    m = merge
+    o = checkout
+    p = pull
+    r = remote
+    s = status
+    w = whatchanged
+
+    # config
+    configs = config --list --show-origin
