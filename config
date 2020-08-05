@@ -3,5 +3,4 @@
 [include]
 	path = alias
 	path = user
-[diff] tool = meld
-[difftool] prompt = false
+	path = diff.ini

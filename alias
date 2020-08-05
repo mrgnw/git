@@ -2,14 +2,15 @@
     cfg = config --global --edit
     email = config --global user.email
     name = config --global user.name
-    df = difftool
+    df = diff
+    dft = difftool
     # aliases = open this
 
     a = add
-    
+
     b = branch
     # b = git checkout -b
-    
+
     # clear_merged = f(){
     # git branch -d $(git branch --merged=master | grep -v master)
     # }
