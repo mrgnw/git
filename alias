@@ -1,5 +1,6 @@
 [alias]
     cfg = config --global --edit
+    cfgl = config --edit
     email = config --global user.email
     name = config --global user.name
     df = diff
