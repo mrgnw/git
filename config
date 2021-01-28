@@ -1,5 +1,5 @@
 [core]
-	excludesfile = ignore
+	excludesfile = ~/.config/git/ignore
 [include]
 	path = alias
 	path = user
