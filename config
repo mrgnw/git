@@ -4,3 +4,5 @@
 	path = alias
 	path = user
 	path = diff.ini
+[init]
+	defaultBranch = main
