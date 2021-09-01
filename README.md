@@ -1,7 +1,7 @@
 #### Git config
 
 ```sh
-git clone https://github.com/mrgnw/git ~/.config
+git clone https://github.com/mrgnw/git ~/.config/git
 ```
 
 This repo uses that existing structure to add easy-to-reference files around that. (Basically [ignore](ignore) & [alias](alias))
