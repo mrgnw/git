@@ -1,27 +1,27 @@
 [alias]
-    cfg = config --global --edit
-    cfgl = config --edit
-    email = config --global user.email
-    name = config --global user.name
-    df = diff
-    dft = difftool
-    # aliases = open this
+	cfg = config --global --edit
+	cfgl = config --edit
+	email = config --global user.email
+	name = config --global user.name
+	df = diff
+	dft = difftool
+	# aliases = open this
 
-    a = add
-    b = branch
-    c = commit
+	a = add
+	b = branch
+	c = commit
 	cm = commit -m
-    d = diff
+	d = diff
 	dt = difftool
-    f = fetch
-    g = grep
-    l = log
-    m = merge
-    o = checkout
-    p = pull
-    r = remote
-    s = status
-    w = whatchanged
+	f = fetch
+	g = grep
+	l = log
+	m = merge
+	o = checkout
+	p = pull
+	r = remote
+	s = status
+	w = whatchanged
 
-    # config
-    configs = config --list
+	# config
+	configs = config --list
