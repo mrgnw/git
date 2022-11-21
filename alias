@@ -1,19 +1,18 @@
 [alias]
 	cfg = config --global --edit
-	cfgl = config --edit
+  cfgl = config --edit
 	email = config --global user.email
 	name = config --global user.name
-	df = diff
-	dft = difftool
-	# aliases = open this
+	aa = add .
+  cm = commit -m
 
+  d = diff
+	dt = difftool
   l = log --graph --all --pretty='format:%C(auto)%h %C(cyan)%ar %C(auto)%d %C(magenta)%an %C(auto)%s'
 	a = add
 	b = branch
 	c = commit
-	cm = commit -m
-	d = diff
-	dt = difftool
+	
 	f = fetch
 	g = grep
 	m = merge
@@ -21,7 +20,7 @@
 	p = pull
 	r = remote
 	s = status
-	w = whatchanged
+	w = whatchanged --pretty='format:%C(auto)%h %C(cyan)%ar %C(auto)%d %C(magenta)%an %C(auto)%s'
 
 	# config
 	configs = config --list
