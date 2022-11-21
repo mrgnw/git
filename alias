@@ -1,26 +1,23 @@
 [alias]
-	cfg = config --global --edit
-  cfgl = config --edit
-	email = config --global user.email
-	name = config --global user.name
-	aa = add .
-  cm = commit -m
-
-  d = diff
-	dt = difftool
-  l = log --graph --all --pretty='format:%C(auto)%h %C(cyan)%ar %C(auto)%d %C(magenta)%an %C(auto)%s'
-	a = add
-	b = branch
-	c = commit
+	a	= add
+	aa	= add .
+	b	= branch
+	o	= checkout
+	c	= commit
+	cm	= commit -m
+	cfg	= config --global --edit
+	d	= diff
+	dt	= difftool
+	l	= log --graph --all --pretty='format:%C(auto)%h %C(cyan)%ar %C(auto)%d %C(magenta)%an %C(auto)%s'
+	f	= fetch
+	g	= grep
+	m	= merge
+	p	= pull
+	r	= remote
+	s	= status
+	w	= whatchanged --pretty='format:%C(auto)%h %C(cyan)%ar %C(auto)%d %C(magenta)%an %C(auto)%s'	
 	
-	f = fetch
-	g = grep
-	m = merge
-	o = checkout
-	p = pull
-	r = remote
-	s = status
-	w = whatchanged --pretty='format:%C(auto)%h %C(cyan)%ar %C(auto)%d %C(magenta)%an %C(auto)%s'
-
-	# config
-	configs = config --list
+	configs	= config --list
+	cfgl	= config --edit
+	email	= config --global user.email
+	name	= config --global user.name
