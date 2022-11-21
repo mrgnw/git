@@ -7,6 +7,7 @@
 	dft = difftool
 	# aliases = open this
 
+  l = log --graph --all --pretty='format:%C(auto)%h %C(cyan)%ar %C(auto)%d %C(magenta)%an %C(auto)%s'
 	a = add
 	b = branch
 	c = commit
@@ -15,7 +16,6 @@
 	dt = difftool
 	f = fetch
 	g = grep
-	l = log
 	m = merge
 	o = checkout
 	p = pull
