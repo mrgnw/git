@@ -3,6 +3,7 @@
 	aa	= add .
 	b	= branch
 	o	= checkout
+    c1	= clone --depth 1
 	c	= commit
 	cm	= commit -m
 	cfg	= config --global --edit
